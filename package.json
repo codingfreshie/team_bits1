@@ -1,7 +1,7 @@
 {
   "name": "vite-project",
-  "homepage" :"https://codingfreshie.github.io/team_bits",
-  "private": true,
+  "homepage": "https://codingfreshie.github.io/team_bits",
+  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,11 +10,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
